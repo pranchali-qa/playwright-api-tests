@@ -1,6 +1,6 @@
-import {test,expect} from "@playwright/test"
-import Ajv from 'ajv'
-import fs from 'fs'
+import {test,expect} from "@playwright/test";
+import Ajv from 'ajv';
+import fs from 'fs';
 
 test('schema validation test', async ({request}) => {
 
